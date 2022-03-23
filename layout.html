@@ -22,6 +22,24 @@
     <section class="o-row o-row--lg">
         <div class="o-container">
             <h2>Layout items combined with width utilities</h2>
+
+
+            <div class="o-layout">
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 u-1-of-4-bp4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis modi molestias, molestiae praesentium necessitatibus aut quae omnis pariatur! Tempore alias repellat tenetur illo facere quisquam nobis adipisci deserunt perspiciatis cumque?</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 u-1-of-4-bp4">
+                    <p>Quasi odit, eos non fuga minima voluptas iusto, assumenda animi libero consectetur itaque dolor, dolore tenetur excepturi architecto hic inventore pariatur fugiat. Molestiae eveniet tempora, necessitatibus qui sunt vel aspernatur!</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 u-1-of-4-bp4">
+                    <p>Eos dolorem tempore in voluptatibus sequi vero unde architecto repellat, doloremque eius quis, quaerat alias incidunt aliquam minima reprehenderit iure tempora odit laboriosam? Corrupti quasi voluptatum repellat iure dolor vel?</p>
+                </div>
+                <div class="o-layout__item u-1-of-2-bp2 u-1-of-3-bp3 u-1-of-4-bp4">
+                    <p>Vero quas ipsam nobis natus eaque dolor explicabo laborum consectetur alias consequatur voluptatibus odit laboriosam ea, dolores maiores, accusantium quo enim aut iste, earum nihil quos maxime fugit. Vitae, quaerat.</p>
+                </div>
+            </div>
+
+
             <div class="o-layout o-layout--gutter">
                 <div class="o-layout__item u-1-of-1">
                     <p class="c-layout-block c-layout-block--ellipsis">default: 100%</p>
@@ -335,14 +353,14 @@
         </header>
         <article class="o-row o-row--lg">
             <div class="o-container">
-                <div class="o-layout">
-                    <div class="o-layout__item">
+                <div class="o-layout o-layout--gutter o-layout--align-center">
+                    <div class="o-layout__item u-1-of-2-bp2">
                         <figure>
                             <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
                         </figure>
                     </div>
-                    <div class="o-layout__item">
-                        <h3>I'm second in order</h3>
+                    <div class="o-layout__item u-1-of-2-bp2">
+                        <h3>I'm first in order</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
                             error qui, tempora natus reiciendis sed iste asperiores, accusamus optio facere a, unde nam,
@@ -354,13 +372,13 @@
         </article>
         <article class="o-row o-row--lg">
             <div class="o-container">
-                <div class="o-layout">
-                    <div class="o-layout__item">
+                <div class="o-layout o-layout--gutter o-layout--align-center">
+                    <div class="o-layout__item u-1-of-2-bp2">
                         <figure>
                             <img src="img/yawning-cat-square.jpg" alt="This is a picture of a yawning cat">
                         </figure>
                     </div>
-                    <div class="o-layout__item">
+                    <div class="o-layout__item u-1-of-2-bp2 o-layout--row-reverse">
                         <h3>I'm second in order</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis laudantium rem
@@ -380,8 +398,8 @@
         </header>
         <div class="o-row o-row--lg">
             <div class="o-container">
-                <div class="o-layout">
-                    <article class="o-layout__item">
+                <div class="o-layout o-layout--gutter o-layout__item u-1-of-3">
+                    <article class="c-layout-block c-layout-block--ellipsis u-1-of-3-bp2">
                         <figure>
                             <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
                         </figure>
@@ -392,7 +410,7 @@
                             sunt minus mollitia libero.
                         </p>
                     </article>
-                    <article class="o-layout__item">
+                    <article class="c-layout-block c-layout-block--ellipsis u-1-of-3-bp2">
                         <figure>
                             <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
                         </figure>
@@ -403,7 +421,7 @@
                             sunt minus mollitia libero.
                         </p>
                     </article>
-                    <article class="o-layout__item">
+                    <article class="c-layout-block c-layout-block--ellipsis u-1-of-3-bp2">
                         <figure>
                             <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
                         </figure>
